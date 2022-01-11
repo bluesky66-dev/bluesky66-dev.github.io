@@ -43,9 +43,9 @@ const Login = () => {
         localStorage.setItem("targetAddress", item.address);
         window.location.pathname = "./main"
     }
-    // else {
-    //   alert("You are not on whitelist.");
-    // }
+    else {
+      alert("You are not on whitelist.");
+    }
   }
   useEffect(async () => {
     
